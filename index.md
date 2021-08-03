@@ -1,6 +1,5 @@
-## Amanda Leaman
-#### Utah State University 
-#### Department of Geosciences
+### Amanda Leaman
+##### Utah State University, Department of Geosciences
 
-### Contact
+#### Contact
 ##### amanda.leaman@usu.edu
