@@ -1,11 +1,16 @@
-<h2 style="background-image: linear-gradient(to bottom right, DarkSlateBlue, Thistle);color:Lavender;">
-<button class="tablink1" onclick=openPage('Amanda Leaman',this,'white')">Amanda Leaman</button>  
-<button class="tablink2" onclick=openPage('Research',this,'blue')"id="defaultOpen">Research</button>  
-<button class="tablink3" onclick=openPage('Presentations',this,'orange')">Presentations</button>  
-<button class="tablink4" onclick=openPage('Publications',this,'green')">Publications</button>  
-<button class="tablink5" onclick=openPage('Work Experience',this,'purple')">Work Experience</button>  
-</h2>                                  
 
+<h2 style="background-image: linear-gradient(to bottom right, DarkSlateBlue, Thistle);color:Lavender;">
+<div class="navbar">
+  <a href="#Amanda Leaman">Amanda Leaman</a>
+  <button class="tablink" onclick=openPage('Amanda Leaman',this,'white')">Amanda Leaman</button>  
+<button class="tablink" onclick=openPage('Research',this,'blue')"id="defaultOpen">Research</button>  
+<button class="tablink" onclick=openPage('Presentations',this,'orange')">Presentations</button>  
+<button class="tablink" onclick=openPage('Publications',this,'green')">Publications</button>  
+<button class="tablink" onclick=openPage('Work Experience',this,'purple')">Work Experience</button>  
+                                  
+</div>
+</h2>
+                                                                          
 <div id="Amanda Leaman" class="page">                                  
   <img border="2"/>
   <p> Utah State University, Department of Geosciences </p>
@@ -17,10 +22,10 @@
   <a href = "https://www.researchgate.net/profile/Amanda-Leaman" target = "_blank">ResearchGate</a>
 </div>
 
-<div id="Research" class="page">
+<div id="Research" class="tabcontent">
 </div>
 
-<div id="Presentations" class="page"> 
+<div id="Presentations" class="tabcontent"> 
 </div>
 
 <div id="Publications" class="tabcontent">                                  
